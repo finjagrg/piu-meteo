@@ -1,0 +1,27 @@
+body {
+  color: aliceblue;
+  background: linear-gradient(
+    68.7deg,
+    rgb(235, 217, 221) 8%,
+    rgb(216, 174, 211) 55.4%,
+    rgb(145, 130, 196) 91.1%
+  );
+}
+
+.weather-app {
+  background: radial-gradient(
+    780px at 37.8% 100.3%,
+    rgb(19, 55, 115) 2.2%,
+    rgb(32, 7, 80) 20.2%,
+    rgb(27, 88, 111) 58.6%,
+    rgb(115, 88, 44) 75%,
+    rgb(99, 19, 90) 89.6%,
+    rgb(12, 51, 76) 96.1%
+  );
+  max-width: 500px;
+  display: block;
+  margin: 70px auto;
+  padding: 30px 14px;
+  border-radius: 16px;
+  box-shadow: 0 30px 50px rgb(65, 50, 100, 0.08);
+}
