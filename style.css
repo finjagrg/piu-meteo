@@ -20,7 +20,9 @@ body {
   border-radius: 16px;
   box-shadow: 0 30px 50px rgb(65, 50, 100, 0.08);
 }
-
+a {
+  color: rgb(96, 115, 178);
+}
 .search-area {
   text-align: center;
   margin-bottom: 40px;
@@ -54,19 +56,25 @@ body {
   display: block;
   margin: 0 auto;
   text-align: center;
+  font-weight: 200;
+}
+.degrees {
+  font-size: 30px;
+  position: relative;
+  top: -50px;
 }
 .currently {
   text-align: left;
   position: relative;
   top: 50px;
-  right: -81px;
+  right: -114px;
 }
 .city {
   display: block;
   text-align: right;
   position: relative;
-  top: -193px;
-  left: -103px;
+  top: -192px;
+  left: -166px;
 }
 .big-icon {
   font-size: 110px;
