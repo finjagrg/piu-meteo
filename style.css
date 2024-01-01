@@ -2,22 +2,16 @@ body {
   color: aliceblue;
   font-family: "DM Sans", sans-serif;
   background: linear-gradient(
-    68.7deg,
-    rgb(235, 217, 221) 8%,
-    rgb(216, 174, 211) 55.4%,
-    rgb(145, 130, 196) 91.1%
+    88.8deg,
+    rgb(239, 171, 245) 13.4%,
+    rgb(196, 181, 249) 76.3%
   );
 }
-
 .weather-app {
-  background: radial-gradient(
-    780px at 37.8% 100.3%,
-    rgb(19, 55, 115) 2.2%,
-    rgb(32, 7, 80) 20.2%,
-    rgb(27, 88, 111) 58.6%,
-    rgb(115, 88, 44) 75%,
-    rgb(99, 19, 90) 89.6%,
-    rgb(12, 51, 76) 96.1%
+  background: linear-gradient(
+    112.1deg,
+    rgb(27, 34, 60) 11.4%,
+    rgb(43, 53, 86) 70.2%
   );
   max-width: 570px;
   display: block;
@@ -36,14 +30,10 @@ body {
   padding: 12px;
   border-radius: 4px;
   border-style: none;
-  background: radial-gradient(
-    780px at 37.8% 100.3%,
-    rgb(137, 161, 195) 2.2%,
-    rgb(142, 124, 178) 20.2%,
-    rgb(140, 173, 196) 58.6%,
-    rgb(197, 181, 142) 75%,
-    rgb(205, 157, 201) 89.6%,
-    rgb(137, 166, 192) 96.1%
+  background: linear-gradient(
+    112.1deg,
+    rgb(77, 90, 135) 11.4%,
+    rgb(68, 87, 147) 70.2%
   );
 }
 .search-input {
@@ -99,10 +89,14 @@ body {
 .weather-description,
 .weather-conditions {
   padding: 10px;
-  background-color: rgb(96, 49, 159);
   margin: 0px 5px;
   border-radius: 4px;
   width: 150px;
+  background: linear-gradient(
+    112.1deg,
+    rgb(77, 90, 135) 11.4%,
+    rgb(68, 87, 147) 70.2%
+  );
 }
 footer {
   margin-top: 20px;
