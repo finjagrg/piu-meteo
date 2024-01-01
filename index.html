@@ -5,22 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>più meteo</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="weather-app">
       <header>
-        <form>
-          <input type="search" placeholder="Enter a city ..." required />
-          <input type="submit" value="Search" />
+        <form class="search-area">
+          <input
+            type="search"
+            placeholder="Enter a city ..."
+            required
+            class="search-input"
+          />
+          <input type="submit" value="Search" class="search-button" />
         </form>
       </header>
       <br/ >
       <main>
-        <div>It is currently 22°C</div>
-        <div>☔️in Bremen</div>
-        <br/ >
+        <div class="big-weather-view">
+          <span class="currently">It is currently </span>
+          <span class="big-temp">22°C</span>
+          <span class="big-icon">☔️</span>
+          <span class="city">in Bremen</span>
+        </div>
         <div>
-          Sunday 22:11, scattered clouds <br />Humidity 66%, Wind 4.01 km/h
+          <span class="date">Sunday 22:11</span>
+          <span class="weather-describtion">scattered clouds</span>
+          <span class="weather-conditions">Humidity 66%, Wind 4.01 km/h</span>
         </div>
       </main>
       <br/ >
