@@ -18,7 +18,7 @@ body {
   margin: 70px auto;
   padding: 18px 14px;
   border-radius: 16px;
-  box-shadow: 0 30px 50px rgb(65, 50, 100, 0.08);
+  box-shadow: 20px 15px 32 px 5px rgba(0, 0, 0, 0.2);
 }
 a {
   color: rgb(96, 115, 178);
@@ -73,9 +73,13 @@ a {
   display: block;
   text-align: right;
   position: relative;
-  top: -192px;
-  left: -166px;
+  font-weight: bolder;
+  top: -191px;
+  left: -158px;
+
+  margin-left: 5px;
 }
+
 .big-icon {
   font-size: 110px;
   display: block;
