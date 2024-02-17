@@ -48,15 +48,9 @@ a {
   position: relative;
   right: -6px;
 }
-.big-weather-view {
+.main-weather-area {
   height: 180px;
-}
-.big-temp {
-  font-size: 100px;
-  display: block;
-  margin: 0 auto;
   text-align: center;
-  font-weight: 200;
 }
 .degrees {
   font-size: 30px;
@@ -64,29 +58,35 @@ a {
   top: -50px;
 }
 .currently {
-  text-align: left;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+}
+.big-temp {
+  font-size: 93px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 200;
   position: relative;
-  top: 50px;
-  right: -114px;
+  left: 10px;
 }
 .city {
-  display: block;
-  text-align: right;
   position: relative;
   font-weight: bolder;
-  top: -191px;
-  left: -158px;
-
-  margin-left: 5px;
+  top: -138px;
+  font-weight: 300;
+  font-size: 34px;
 }
 
 .big-icon {
-  font-size: 110px;
+  width: 140px;
+  height: 140px;
   display: block;
-  text-align: right;
   position: relative;
-  bottom: 184px;
-  left: -43px;
+  left: 197px;
+  bottom: 60px;
 }
 .weather-condition-group {
   padding: 0%;
@@ -100,6 +100,7 @@ a {
 .date,
 .weather-description,
 .weather-conditions {
+  line-height: 20px;
   padding: 10px;
   margin: 0px 5px;
   border-radius: 4px;
